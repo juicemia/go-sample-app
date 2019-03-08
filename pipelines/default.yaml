@@ -7,4 +7,5 @@ spec:
     # overridden from a pipeline. This is to guarantee that
     # what the user does is what the pipeline does.
     arguments:
-      GOOS: linux
+      GOOS:
+        value: linux
